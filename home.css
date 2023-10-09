@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+    background-color: #9bdd7e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#head {
+    color: rgb(243, 57, 10);
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+}
+
+#links {
+    font-family: 'Acme', sans-serif;
+    padding: 30px;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+#links>a {
+    margin-left: 20px;
+}
+
+a:visited {
+    color: #1684eb;
+}
+#image
+{
+    display: flex;
+    justify-content: space-between;
+}
+#a{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#b
+{
+    margin-top: 80px;
+    margin-right: 50px;
+}
+#a1{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#b1{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#content{
+    font-size: 1.5rem;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.para{
+    padding: 20px;
+}
+#intro
+{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#days{
+    margin-top: 100px;
+}
+#days>a{
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: rgb(241, 9, 152); 
+}
+a:link{
+    color: rgb(241, 9, 152);
+}
+.nine{
+    font-size: 1.5rem;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+}
