@@ -3,8 +3,13 @@
     padding: 0px;
 }
 
+.bgimg {
+    background-image: url(Images/bgimg.jpg);
+    height: 100%;
+}
+
 #home {
-    background-color: #9bdd7e;
+    background-color: #1446eb;
     padding: 5px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +22,7 @@
 }
 
 #head {
-    color: rgb(243, 57, 10);
+    color: rgb(255, 255, 255);
     font-family: 'Acme', sans-serif;
     font-size: 2rem;
 }
@@ -26,68 +31,202 @@
     font-family: 'Acme', sans-serif;
     padding: 30px;
     font-size: 1.8rem;
-    text-decoration: none;
 }
 
 #links>a {
+    text-decoration: none;
     margin-left: 20px;
 }
 
 a:visited {
     color: #1684eb;
 }
-#image
-{
+
+#image {
     display: flex;
     justify-content: space-between;
 }
-#a{
+
+#a {
     margin-top: 80px;
     margin-left: 50px;
 }
-#b
-{
+
+#c {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 3.3rem;
+    font-family: 'Acme', sans-serif;
+    color: rgb(42, 0, 139);
+}
+
+#b {
     margin-top: 80px;
     margin-right: 50px;
 }
-#a1{
+
+#a1 {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-#b1{
+
+#b1 {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-#content{
-    font-size: 1.5rem;
-    margin: 30px;
-    font-family: 'Poppins', sans-serif;
-}
-.para{
-    padding: 20px;
-}
-#intro
-{
-    padding: 20px;
-    margin-bottom: 20px;
-}
-#days{
+
+#days {
     margin-top: 100px;
 }
-#days>a{
+
+#days>div>a {
     text-decoration: none;
 }
-a:active{
-    color: black;
+
+a:active {
+    color: rgb(253, 253, 253);
 }
-a:visited{
-    color: rgb(241, 9, 152); 
+
+a:visited {
+    color: white
 }
-a:link{
-    color: rgb(241, 9, 152);
+
+a:link {
+    color: rgb(253, 253, 253);
 }
-.nine{
+
+#day_div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nine {
     font-size: 1.5rem;
-    margin: 30px;
     font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: rgb(89, 89, 235);
+    border-radius: 20px;
+
+
 }
+
+#sponser {
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#sponser_image {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#gcc_logo{
+    background-color: white;
+}
+
+#footer {
+    background-color: gray;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer>div>a:link,
+#footer>div>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#about {
+    font-size: 2rem;
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(230, 31, 31);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.day_head{
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+.day_div{
+    
+    margin-bottom: 100px;
+}
+.day_img
+{
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.day_content{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(230, 31, 31);
+    padding: 20px;
+    margin-right: 100px;
+    border-radius: 50px;
+}
+.div_img_cont{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.head1_div{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 100px;
+}
+.span{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(230, 31, 31);
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+.singer_1{
+    margin-right: 100px;
+    border-radius: 30px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button>div>a{
+    text-decoration: none;
+}
+.button_name{
+    background-color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
