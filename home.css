@@ -6,6 +6,7 @@
 .bgimg {
     background-image: url(Images/bgimg.jpg);
     height: 100%;
+    width: 100%;
 }
 
 #home {
@@ -107,7 +108,6 @@ a:link {
     background-color: rgb(89, 89, 235);
     border-radius: 20px;
 
-
 }
 
 #sponser {
@@ -152,6 +152,34 @@ a:link {
     border-radius: 10px;
     margin-bottom: 100px;
 
+}
+#contact_div{
+    margin-bottom: 100px;
+}
+#Contact_us{
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
+.numbers{
+    font-size: 2rem;
+    /* margin: 50px; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(209, 109, 50);
+    border-radius: 10px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    padding: 10px;
+
+    
+}
+#numbers_div{
+    padding: 30px;
+    
 }
 .day_head{
     color: white;
